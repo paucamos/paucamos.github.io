@@ -1,0 +1,24 @@
+{
+  "name": "portfolio_pau",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paucamos/portfolio.git"
+  },
+  "author": "Pau Camós Parra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paucamos/portfolio/issues"
+  },
+  "homepage": "https://github.com/paucamos/portfolio#readme"
+}

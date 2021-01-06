@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pablodev</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="antialiased text-gray-800 bg-white dark:bg-gray-800 dark:text-gray-100"
+  >
+    <div class="flex flex-col space-y-12 m-auto max-w-5xl mt-12">
+      <div class="flex justify-end items-center space-x-2">
+        <span class="text-sm text-gray-800 dark:text-gray-500">Light</span>
+        <div>
+          <input type="checkbox" name="" id="toggle" class="hidden" />
+          <label for="toggle" class="cursor-pointer">
+            <div
+              class="w-9 h-5 flex items-center bg-gray-300 dark:bg-gray-600 rounded-full p-1"
+            >
+              <div
+                class="toggle-dot w-4 h-4 bg-white rounded-full shadow-md transform duration-300 ease-in-out"
+              ></div>
+            </div>
+          </label>
+        </div>
+        <span class="text-sm text-gray-400 dark:text-gray-100">Dark</span>
+      </div>
+
+      <!--<div class="grid grid-cols-6 gap-4">
+        <div class="col-start-2 col-span-4">
+          <img class="w-48 h-48 profile-me mx-auto" src="./img/me.jpg" alt="" />
+        </div>
+        <div class="col-start-3 col-span-2 ml-14">
+          <span class="text-3xl">Pau Camós Parra</span><br />
+          <span class="text-1xl">Software Developer</span>
+        </div>
+      </div>-->
+
+      <div class="max-w-sm w-full lg:max-w-full lg:flex">
+        <div
+          class="h-60 md:h-auto md:w-60 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
+          style="background-image: url('./img/me.jpg')"
+          title="Woman holding a mug"
+        ></div>
+        <div
+          class="h-auto border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white dark:bg-gray-700 rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
+        >
+          <div class="mb-8">
+            <div
+              class="text-gray-900 dark:text-gray-100 font-bold text-xl mb-2"
+            >
+              Pau Camós Parra
+            </div>
+            <div class="text-gray-700 dark:text-gray-100 text-base">
+              Hi, I'm Pau and I'm a Software Developer 💻
+              <br />
+              <br />
+              <span class="mt-5 font-bold text-xl mb-2"> Goals: </span>
+              <ul class="mt-1">
+                <li>🌱 I’m currently learning ASP.NET Core 5</li>
+                <li>
+                  🥅 2021 Goals: Contribute to Open Source projects, be more
+                  active in StackOverflow and GitHub
+                </li>
+                <li>⚡ About me: I love to swim and I'm a Python enthusiast</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--
+		<div class="time">
+      <time id="time"></time>
+    </div>
+	-->
+    <script src="../src/index.js"></script>
+  </body>
+</html>

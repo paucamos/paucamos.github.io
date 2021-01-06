@@ -1,0 +1,15 @@
+@tailwind base;
+
+#toggle:checked ~ label div.toggle-dot {
+  @apply translate-x-3;
+}
+
+.profile-me {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@tailwind components;
+@tailwind utilities;
